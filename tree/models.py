@@ -1,4 +1,6 @@
+import datetime
 from django.db import models
+from django.utils import timezone
 
 # Create your models here.
 
@@ -10,3 +12,12 @@ class Person(models.Model):
 	
 	birth_date = models.DateTimeField('data urodzenia')
 	death_date = models.DateTimeField('data śmierci')
+	
+	def __str__(self):
+		return self.first_name + " " + self.last_name;
+		
+	def is_alive(self):
+		return self.death_date < timezone.now()
+		
+	def get_age(self):
+		return timezone.now() - self.birth_date
