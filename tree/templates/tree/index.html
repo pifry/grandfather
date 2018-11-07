@@ -1,7 +1,7 @@
 {% if person_list %}
     <ul>
     {% for person in person_list %}
-        <li><a href="/tree/{{ person.id }}/">{{ person.first_name }} {{ person.last_name }}</a></li>
+        <li><a href="{% url 'detail' person.id %}">{{ person.first_name }} {{ person.last_name }}</a></li>
     {% endfor %}
     </ul>
 {% else %}
