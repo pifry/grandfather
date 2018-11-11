@@ -1,0 +1,13 @@
+1. No site should be available before ligin process
+2. Every address should point to login site before login process
+3. After successful login user should be at main tree site, looking at actual tree
+4. From main tree view user should be able to go to details of any tree node
+5. From details view user should be able to go back to tree view
+6. From details view user should be able go to to details of any direct ancestor 
+7. From details view user should be able go to to details of any direct descendant
+8. From details view user should be able modyfiy details of actual tree node
+9. From details view user should be able to add new descendant node
+10. After adding descendant node from details view user should see details of newly created node
+11. From details view user should be able to add new ancestor node
+12. After adding ancestor node from details view user should see details of newly created node
+13. From modyfiying details mode user should be able to preview currently edited node
