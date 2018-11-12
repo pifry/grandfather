@@ -1,0 +1,40 @@
+1542001398079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sL9uvI4ohRyM"
+
+(firefox:7688): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:7688): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542001399522	Marionette	INFO	Listening on port 45533
+1542001399584	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7688, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 7688, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542001406282	Marionette	INFO	Stopped listening on port 45533
+1542001762943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jxJhzDyvXeLb"
+
+(firefox:8114): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8114): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542001764332	Marionette	INFO	Listening on port 42033
+1542001764354	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8114, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542001770852	Marionette	INFO	Stopped listening on port 42033
+1542002316989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HaYqx98Rb8dB"
+
+(firefox:8469): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8469): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542002318350	Marionette	INFO	Listening on port 43523
+1542002318409	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8469, Gecko_IOThread] WARNING: pipe error (99): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 8469, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+1542002327433	Marionette	INFO	Stopped listening on port 43523
+1542002349812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GMdDtd7mleus"
+
+(firefox:8730): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:8730): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542002351205	Marionette	INFO	Listening on port 46161
+1542002351222	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542002351387	Marionette	INFO	Stopped listening on port 46161
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 8730, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
