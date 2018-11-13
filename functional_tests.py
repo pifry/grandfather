@@ -14,5 +14,15 @@ class MyTests(unittest.TestCase):
 
 		self.assertIn('Logowanie', self.browser.title)
 
+	def test_before_login_tree_page(self):
+		self.browser.get('http://localhost:8000/tree')
+
+		self.assertIn('Logowanie', self.browser.title)
+
+	def test_before_login_details_page(self):
+		self.browser.get('http://localhost:8000/tree/1')
+
+		self.assertIn('Logowanie', self.browser.title)
+
 if __name__ == '__main__':
 	unittest.main(warnings='ignore')

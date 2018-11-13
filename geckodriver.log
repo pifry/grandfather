@@ -38,3 +38,46 @@
 JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
 [Parent 8730, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
 JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1542002792301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lCbjAjkh8T5G"
+
+(firefox:9099): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9099): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542002793682	Marionette	INFO	Listening on port 43535
+1542002793710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542002793880	Marionette	INFO	Stopped listening on port 43535
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 9099, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1542003159675	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.TqX1BuLPBqXz"
+
+(firefox:9360): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9360): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542003161112	Marionette	INFO	Listening on port 37853
+1542003161181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542003161368	Marionette	INFO	Stopped listening on port 37853
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 9360, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1542003161762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Vpx0rUMzjUma"
+
+(firefox:9586): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9586): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542003163193	Marionette	INFO	Listening on port 45917
+1542003163268	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542003163446	Marionette	INFO	Stopped listening on port 45917
+JavaScript error: resource://activity-stream/lib/TopSitesFeed.jsm, line 86: TypeError: setting getter-only property "_currentSearchHostname"
+[Parent 9586, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 841: Error: Connection is not open.
+1542003163963	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.PzakPjN96EmE"
+
+(firefox:9801): Gtk-WARNING **: Theme parsing error: <data>:1:34: Expected ')' in color definition
+
+(firefox:9801): Gtk-WARNING **: Theme parsing error: <data>:1:77: Expected ')' in color definition
+1542003165371	Marionette	INFO	Listening on port 34793
+1542003165472	Marionette	WARN	TLS certificate errors will be ignored for this session
+1542003165877	Marionette	INFO	Stopped listening on port 34793
+[Parent 9801, Gecko_IOThread] WARNING: pipe error (70): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 9801, Gecko_IOThread] WARNING: pipe error (101): Connection reset by peer: file /build/firefox-j7tNrI/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
