@@ -3,10 +3,12 @@ from django.http import HttpResponse
 from django.template import loader
 from django.http import Http404
 from .models import Person
+from django.contrib.auth.decorators import login_required
 
 
 # Create your views here.
 
+@login_required
 def index(request):
 	context = { 'person_list': Person.objects.all() }
 	return render(request, 'tree/index.html', context)
